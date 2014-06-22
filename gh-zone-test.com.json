@@ -1,0 +1,31 @@
+{
+  "name": "gh-zone-test.com",
+  "records": [
+    {
+      "name": "",
+      "type": "A",
+      "content": "1.2.3.4",
+      "ttl": 3600
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "content": "mail.example.com",
+      "ttl": 3600,
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "content": "mail2.example.com",
+      "ttl": 3600,
+      "prio": 20
+    },
+    {
+      "name": "www",
+      "type": "CNAME",
+      "content": "anthonyeden.com",
+      "ttl": 3600
+    }
+  ]
+}
