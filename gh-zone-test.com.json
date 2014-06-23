@@ -26,6 +26,12 @@
       "type": "CNAME",
       "content": "anthonyeden.com",
       "ttl": 3600
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "content": "test-content",
+      "ttl": 3600
     }
   ]
 }
