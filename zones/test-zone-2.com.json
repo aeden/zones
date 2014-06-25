@@ -1,4 +1,11 @@
 {
   "name": "test-zone-2.com",
-  "records": []
+  "records": [
+    {
+      "name": "example",
+      "type": "ALIAS",
+      "content": "dnsimple.com",
+      "ttl": 3600
+    }
+  ]
 }
