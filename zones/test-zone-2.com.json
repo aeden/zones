@@ -1,17 +1,1 @@
-{
-  "name": "test-zone-2.com",
-  "records": [
-    {
-      "name": "example",
-      "type": "ALIAS",
-      "content": "dnsimple.com",
-      "ttl": 3600
-    },
-    {
-      "name": "",
-      "type": "A",
-      "content": "1.2.3.4",
-      "ttl": 3600
-    }
-  ]
-}
+{"name":"test-zone-2.com","records":[{"name":"","type":"A","ttl":3600,"content":"1.2.3.4","prio":null},{"name":"example","type":"TXT","ttl":3600,"content":"ALIAS for dnsimple.com","prio":null},{"name":"example","type":"ALIAS","ttl":3600,"content":"dnsimple.com","prio":null}]}
