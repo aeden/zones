@@ -2,52 +2,35 @@
   "name": "fjiwrgjirwg.com",
   "records": [
     {
-      "name": "_xmpp-server._tcp",
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
     },
     {
-      "name": "sites",
-      "type": "CNAME",
-      "ttl": 3600,
-      "content": "ghs.googlehosted.com"
-    },
-    {
-      "name": "calendar",
-      "type": "CNAME",
-      "ttl": 3600,
-      "content": "ghs.googlehosted.com"
-    },
-    {
-      "name": "docs",
-      "type": "CNAME",
-      "ttl": 3600,
-      "content": "ghs.googlehosted.com"
-    },
-    {
-      "name": "mail",
-      "type": "CNAME",
-      "ttl": 3600,
-      "content": "ghs.googlehosted.com"
-    },
-    {
       "name": "",
       "type": "MX",
       "ttl": 3600,
-      "content": "alt1.aspmx.l.google.com",
+      "content": "alt2.aspmx.l.google.com",
       "prio": 5
     },
     {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server2.l.google.com",
+      "content": "0 5269 xmpp-server1.l.google.com",
       "prio": 20
     },
     {
-      "name": "_jabber._tcp",
+      "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server.l.google.com",
@@ -57,21 +40,14 @@
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server1.l.google.com",
+      "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx.l.google.com",
-      "prio": 1
     },
     {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
+      "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
     },
     {
@@ -89,10 +65,10 @@
       "prio": 20
     },
     {
-      "name": "_jabber._tcp",
+      "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server1.l.google.com",
+      "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
     },
     {
@@ -124,6 +100,714 @@
       "prio": 5
     },
     {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
@@ -155,7 +839,28 @@
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
       "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
       "prio": 20
     },
     {
@@ -180,11 +885,39 @@
       "prio": 5
     },
     {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
       "name": "",
       "type": "MX",
       "ttl": 3600,
       "content": "aspmx.l.google.com",
       "prio": 1
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
     },
     {
       "name": "_jabber._tcp",
@@ -211,8 +944,43 @@
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
       "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
     },
     {
       "name": "",
@@ -236,6 +1004,13 @@
       "prio": 20
     },
     {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
@@ -248,6 +1023,32 @@
       "ttl": 3600,
       "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
     },
     {
       "name": "",
@@ -279,6 +1080,20 @@
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
       "content": "0 5269 xmpp-server2.l.google.com",
       "prio": 20
     },
@@ -288,6 +1103,44 @@
       "ttl": 3600,
       "content": "0 5269 xmpp-server2.l.google.com",
       "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
     },
     {
       "name": "",
@@ -331,6 +1184,20 @@
       "name": "",
       "type": "MX",
       "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
       "content": "aspmx2.googlemail.com",
       "prio": 10
     },
@@ -340,6 +1207,27 @@
       "ttl": 3600,
       "content": "aspmx2.googlemail.com",
       "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
     },
     {
       "name": "",
@@ -360,6 +1248,13 @@
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
       "prio": 5
     },
     {
@@ -377,11 +1272,32 @@
       "prio": 5
     },
     {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
     },
     {
       "name": "",
@@ -401,7 +1317,28 @@
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
       "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
     },
     {
@@ -419,11 +1356,53 @@
       "prio": 20
     },
     {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server.l.google.com",
       "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
     },
     {
       "name": "_jabber._tcp",
@@ -437,6 +1416,94 @@
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
       "prio": 20
     },
     {
@@ -450,90 +1517,35 @@
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server2.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "",
-      "type": "TXT",
-      "ttl": 3600,
-      "content": "v=spf1 a include:_spf.google.com ~all"
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx3.googlemail.com",
-      "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx2.googlemail.com",
-      "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "alt2.aspmx.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_xmpp-server._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server3.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server1.l.google.com",
+      "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
     },
     {
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server3.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "alt1.aspmx.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server2.l.google.com",
+      "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
     },
     {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server.l.google.com",
-      "prio": 5
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
     },
     {
-      "name": "_xmpp-server._tcp",
+      "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server1.l.google.com",
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
     },
     {
@@ -544,21 +1556,77 @@
       "prio": 1
     },
     {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
-      "prio": 20
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
     },
     {
-      "name": "_xmpp-server._tcp",
+      "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
       "prio": 20
     },
     {
-      "name": "_xmpp-server._tcp",
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server2.l.google.com",
@@ -566,9 +1634,87 @@
     },
     {
       "name": "",
-      "type": "TXT",
+      "type": "MX",
       "ttl": 3600,
-      "content": "v=spf1 a include:_spf.google.com ~all"
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
     },
     {
       "name": "",
@@ -596,9 +1742,244 @@
     },
     {
       "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
       "type": "MX",
       "ttl": 3600,
       "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
       "prio": 10
     },
     {
@@ -612,10 +1993,495 @@
       "name": "",
       "type": "MX",
       "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "mail",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    },
+    {
+      "name": "docs",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    },
+    {
+      "name": "calendar",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    },
+    {
+      "name": "sites",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
       "content": "alt2.aspmx.l.google.com",
       "prio": 5
     },
     {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx3.googlemail.com",
+      "prio": 10
+    },
+    {
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
@@ -623,11 +2489,25 @@
       "prio": 5
     },
     {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
       "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
     },
     {
       "name": "_jabber._tcp",
@@ -640,8 +2520,8 @@
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server3.l.google.com",
-      "prio": 20
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
     },
     {
       "name": "_xmpp-server._tcp",
@@ -651,7 +2531,7 @@
       "prio": 20
     },
     {
-      "name": "_xmpp-server._tcp",
+      "name": "_jabber._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server3.l.google.com",
@@ -665,6 +2545,34 @@
       "prio": 5
     },
     {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
       "name": "",
       "type": "MX",
       "ttl": 3600,
@@ -672,59 +2580,38 @@
       "prio": 5
     },
     {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "alt1.aspmx.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server2.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server2.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server2.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server.l.google.com",
-      "prio": 5
-    },
-    {
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
       "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
     },
     {
@@ -738,7 +2625,7 @@
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server1.l.google.com",
+      "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
     },
     {
@@ -747,62 +2634,6 @@
       "ttl": 3600,
       "content": "aspmx.l.google.com",
       "prio": 1
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx.l.google.com",
-      "prio": 1
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx.l.google.com",
-      "prio": 1
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_xmpp-server._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_xmpp-server._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
-      "prio": 20
-    },
-    {
-      "name": "_xmpp-server._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server4.l.google.com",
-      "prio": 20
     },
     {
       "name": "_xmpp-server._tcp",
@@ -812,11 +2643,30 @@
       "prio": 20
     },
     {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
       "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server2.l.google.com",
+      "content": "0 5269 xmpp-server4.l.google.com",
       "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
     },
     {
       "name": "_xmpp-server._tcp",
@@ -854,78 +2704,28 @@
       "name": "",
       "type": "MX",
       "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
       "content": "aspmx3.googlemail.com",
       "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx3.googlemail.com",
-      "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx2.googlemail.com",
-      "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx2.googlemail.com",
-      "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "aspmx2.googlemail.com",
-      "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "alt2.aspmx.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "alt2.aspmx.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "alt2.aspmx.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_xmpp-server._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_xmpp-server._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server.l.google.com",
-      "prio": 5
-    },
-    {
-      "name": "_jabber._tcp",
-      "type": "SRV",
-      "ttl": 3600,
-      "content": "0 5269 xmpp-server3.l.google.com",
-      "prio": 20
     },
     {
       "name": "_xmpp-server._tcp",
@@ -942,11 +2742,11 @@
       "prio": 20
     },
     {
-      "name": "_jabber._tcp",
+      "name": "_xmpp-server._tcp",
       "type": "SRV",
       "ttl": 3600,
-      "content": "0 5269 xmpp-server3.l.google.com",
-      "prio": 20
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
     },
     {
       "name": "_jabber._tcp",
@@ -954,6 +2754,48 @@
       "ttl": 3600,
       "content": "0 5269 xmpp-server3.l.google.com",
       "prio": 20
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "_xmpp-server._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx2.googlemail.com",
+      "prio": 10
     }
   ]
 }
