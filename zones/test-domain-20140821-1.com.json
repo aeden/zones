@@ -1,1 +1,6 @@
-{"name":"test-domain-20140821-1.com","records":[{"name":"","type":"NS","ttl":3600,"content":"ns4.dnsimple.com","prio":null},{"name":"","type":"NS","ttl":3600,"content":"ns3.dnsimple.com","prio":null},{"name":"","type":"NS","ttl":3600,"content":"ns2.dnsimple.com","prio":null},{"name":"","type":"NS","ttl":3600,"content":"ns1.dnsimple.com","prio":null},{"name":"","type":"SOA","ttl":3600,"content":"ns1.dnsimple.com admin.dnsimple.com 2014082101 86400 7200 604800 300","prio":null}]}
+{
+  "name": "test-domain-20140821-1.com",
+  "records": [
+
+  ]
+}
