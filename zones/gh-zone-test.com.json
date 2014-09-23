@@ -3,9 +3,22 @@
   "records": [
     {
       "name": "",
-      "type": "A",
+      "type": "TXT",
       "ttl": 3600,
-      "content": "5.6.7.8"
+      "content": "test-content"
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "mail2.example.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "test-content"
     },
     {
       "name": "",
@@ -16,10 +29,9 @@
     },
     {
       "name": "",
-      "type": "MX",
+      "type": "A",
       "ttl": 3600,
-      "content": "mail2.example.com",
-      "prio": 20
+      "content": "5.6.7.8"
     },
     {
       "name": "www",
@@ -29,9 +41,10 @@
     },
     {
       "name": "",
-      "type": "A",
+      "type": "MX",
       "ttl": 3600,
-      "content": "5.6.7.8"
+      "content": "mail2.example.com",
+      "prio": 20
     },
     {
       "name": "",
@@ -42,22 +55,9 @@
     },
     {
       "name": "",
-      "type": "TXT",
+      "type": "A",
       "ttl": 3600,
-      "content": "test-content"
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "mail2.example.com",
-      "prio": 20
-    },
-    {
-      "name": "",
-      "type": "TXT",
-      "ttl": 3600,
-      "content": "test-content"
+      "content": "5.6.7.8"
     }
   ]
 }
