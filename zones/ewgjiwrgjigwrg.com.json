@@ -1,6 +1,111 @@
 {
   "name": "ewgjiwrgjigwrg.com",
   "records": [
-
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server4.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server3.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server2.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server1.l.google.com",
+      "prio": 20
+    },
+    {
+      "name": "_jabber._tcp",
+      "type": "SRV",
+      "ttl": 3600,
+      "content": "0 5269 xmpp-server.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "TXT",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "SPF",
+      "ttl": 3600,
+      "content": "v=spf1 a include:_spf.google.com ~all"
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt4.aspmx.l.google.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt3.aspmx.l.google.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt2.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "alt1.aspmx.l.google.com",
+      "prio": 5
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "aspmx.l.google.com",
+      "prio": 1
+    },
+    {
+      "name": "sites",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    },
+    {
+      "name": "calendar",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    },
+    {
+      "name": "docs",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    },
+    {
+      "name": "mail",
+      "type": "CNAME",
+      "ttl": 3600,
+      "content": "ghs.googlehosted.com"
+    }
   ]
 }
