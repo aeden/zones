@@ -3,35 +3,35 @@
   "records": [
     {
       "name": "",
-      "type": "A",
-      "content": "5.6.7.8",
-      "ttl": 3600
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "content": "mail.example.com",
+      "type": "TXT",
       "ttl": 3600,
-      "prio": 10
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "content": "mail2.example.com",
-      "ttl": 3600,
-      "prio": 20
+      "content": "test-content"
     },
     {
       "name": "www",
       "type": "CNAME",
-      "content": "anthonyeden.com",
-      "ttl": 3600
+      "ttl": 3600,
+      "content": "anthonyeden.com"
     },
     {
       "name": "",
-      "type": "TXT",
-      "content": "test-content",
-      "ttl": 3600
+      "type": "MX",
+      "ttl": 3600,
+      "content": "mail2.example.com",
+      "prio": 20
+    },
+    {
+      "name": "",
+      "type": "MX",
+      "ttl": 3600,
+      "content": "mail.example.com",
+      "prio": 10
+    },
+    {
+      "name": "",
+      "type": "A",
+      "ttl": 3600,
+      "content": "5.6.7.8"
     }
   ]
 }
